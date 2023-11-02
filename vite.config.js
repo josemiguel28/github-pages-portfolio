@@ -4,7 +4,6 @@ import path, { resolve } from 'node:path'
 import { ViteMinifyPlugin} from 'vite-plugin-minify'
 import htmlPurge from 'vite-plugin-purgecss'
 export default defineConfig({
-    base: "/updated_portfolio-pw2/",
     appType: 'mpa',
     build: {
         rollupOptions: {
@@ -22,5 +21,5 @@ export default defineConfig({
         htmlPurge({}),
         ViteMinifyPlugin({})
     ],
-    
+
 })
