@@ -11,4 +11,6 @@ export default defineConfig({
         htmlPurge({}),
         ViteMinifyPlugin({})
     ]
+    
+    base: "/updated_portfolio-pw2/"
 })
