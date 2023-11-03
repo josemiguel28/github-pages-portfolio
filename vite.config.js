@@ -21,5 +21,5 @@ export default defineConfig({
         htmlPurge({}),
         ViteMinifyPlugin({})
     ],
-
+    base:"/github-pages-portfolio/"
 })
